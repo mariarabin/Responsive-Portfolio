@@ -212,12 +212,17 @@ footer {
 
 /* Media Queries */
 
+/* ----------EXTRA LARGE---------- */
 @media screen and (min-width: 981px) {}
 
+/* ----------LARGE---------- */
 @media screen and (min-width: 769px) and (max-width: 980px) {}
 
+/* ----------MEDIUM---------- */
 @media screen and (min-width: 641px) and (max-width: 768px) {}
 
+
+/* ----------SMALL---------- */
 @media screen and (max-width: 640px) {
 /* Header */
 
@@ -243,14 +248,14 @@ footer {
 /* Main Content Area */
 
 .content {
-    width: 700px;
+    width: 640px;
     margin: 20px 50px;
 }
 
 .main {
-    width: 350px;
+    width: 410px;
     margin: 30px 30px;
-    padding: 30px;
+    padding: 40px;
 }
 
 .logo {
@@ -288,15 +293,16 @@ p {
 
 /* Contact Page */
 .contact {
-    width: 700px;
+    width: 640px;
 }
 
 .contact label {
     padding-bottom: 3px;
+    font-size: 14px;
 }
 
 .contact input {
-    width: 300px;
+    width: 400px;
     border: 1px solid #cccccc;
     margin-bottom: 10px;
     padding: 5px;
@@ -304,7 +310,7 @@ p {
 }
 
 .contact textarea {
-    width: 300px;
+    width: 400px;
     border: 1px solid #cccccc;
     margin-bottom: 7px;
     padding: 5px;
@@ -313,8 +319,9 @@ p {
 
 .contact input[type="submit"] {
     padding: 9px 9px;
-    font-size: 12px;
+    font-size: 13px;
     display: block;
+    font-weight: bold;
 }
 
 /* Portfolio Page */
