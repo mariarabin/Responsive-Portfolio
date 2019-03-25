@@ -160,8 +160,6 @@ p {
     font-size: 16px;
 }
 
-
-
 .contact input[type="submit"] {
     width: auto;
     background-color: #4aaaa5;
@@ -199,7 +197,6 @@ p {
     text-decoration: none;
 }
 
-
 footer {
     position: fixed;
     left: 0;
@@ -211,4 +208,126 @@ footer {
     color: #cccccc;
     background-color: #666666;
     border-top: 6px solid #4aaaa5;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 981px) {}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {
+/* Header */
+
+.container {
+    width: 500px;
+}
+
+.nav {
+    text-align: left;
+}
+
+.nav ul li {
+    padding-left: 3px;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+/* Main Content Area */
+
+.content {
+    width: 500;
+    margin: 20px 50px;
+}
+
+.main {
+    width: 300px;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.ty {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.facePhoto {
+    padding: 0 20px 20px 0;
+    width: 130px;
+    height: 150px;
+}
+
+
+/* Contact Page */
+.contact {
+    width: 500px;
+}
+
+.contact label {
+    padding-bottom: 5px;
+}
+
+.contact input {
+    width: 500px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.contact textarea {
+    width: 500px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.contact input[type="submit"] {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* Portfolio Page */
+.portfolio {
+    margin: 50px 100px 50px 100px;
+}
+
+.portfolio-item {
+    width: 250px;
+    height: 200px;
+   
+}
+
+.item-name {
+    top: -10px;
+    padding: 16px;
+}
+
+footer {
+    padding: 16px;
+    font-size: 8px;
+    border-top: 6px solid #4aaaa5;
+}
 }
