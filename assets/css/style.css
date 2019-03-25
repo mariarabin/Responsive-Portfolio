@@ -222,7 +222,7 @@ footer {
 /* Header */
 
 .container {
-    width: 500px;
+    width: 700px;
 }
 
 .nav {
@@ -238,20 +238,20 @@ footer {
 /* Main Content Area */
 
 .content {
-    width: 500;
+    width: 700px;
     margin: 20px 50px;
 }
 
 .main {
-    width: 300px;
-    margin: 30px 0;
-    padding: 20px;
+    width: 350px;
+    margin: 30px 30px;
+    padding: 30px;
 }
 
 .logo {
     font-size: 25px;
     letter-spacing: 0.01em;
-    padding: 25px;
+    padding: 23px;
 }
 
 h1 {
@@ -262,14 +262,14 @@ h1 {
 }
 
 .ty {
-    font-size: 15px;
+    font-size: 14px;
     margin-right: 20px;
 }
 
 p {
     font-size: 12px;
     line-height: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 .facePhoto {
@@ -281,32 +281,33 @@ p {
 
 /* Contact Page */
 .contact {
-    width: 500px;
+    width: 700px;
 }
 
 .contact label {
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .contact input {
-    width: 500px;
+    width: 300px;
     border: 1px solid #cccccc;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 10px;
 }
 
 .contact textarea {
-    width: 500px;
+    width: 300px;
     border: 1px solid #cccccc;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 12px;
+    margin-bottom: 7px;
+    padding: 5px;
+    font-size: 10px;
 }
 
 .contact input[type="submit"] {
-    padding: 8px 20px;
-    font-size: 14px;
+    padding: 9px 9px;
+    font-size: 12px;
+    display: inline;
 }
 
 /* Portfolio Page */
@@ -315,14 +316,14 @@ p {
 }
 
 .portfolio-item {
-    width: 250px;
-    height: 200px;
+    width: 5px;
+    height: 5px;
    
 }
 
 .item-name {
-    top: -10px;
-    padding: 16px;
+    top: 10px;
+    padding: 5px;
 }
 
 footer {
