@@ -219,8 +219,131 @@ footer {
 @media screen and (min-width: 769px) and (max-width: 980px) {}
 
 /* ----------MEDIUM---------- */
-@media screen and (min-width: 641px) and (max-width: 768px) {}
+@media screen and (min-width: 641px) and (max-width: 768px) {
 
+    /* Header */
+    
+    .container {
+        width: 768px;
+    }
+    
+    .name {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .nav {
+        text-align: left;
+    }
+    
+    .nav ul li {
+        padding-left: 3px;
+        margin-left: 2px;
+        font-size: 14px;
+    }
+    
+    /* Main Content Area */
+    
+    .content {
+        width: 768px;
+        margin: 20px 50px;
+    }
+    
+    .main {
+        width: 520px;
+        margin: 30px 30px;
+        padding: 40px;
+    }
+    
+    .logo {
+        font-size: 25px;
+        letter-spacing: 0.01em;
+        padding: 23px;
+        margin-left: 80px;
+    }
+    
+    h1 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    .ty {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    
+    p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 13px;
+        text-align: justify;
+    }
+    
+    .facePhoto {
+        padding: 0 20px 20px 0;
+        width: 130px;
+        height: 150px;
+    }
+    
+    
+    /* Contact Page */
+    .contact {
+        width: 768px;
+    }
+    
+    .contact label {
+        padding-bottom: 3px;
+        font-size: 14px;
+    }
+    
+    .contact input {
+        width: 500px;
+        border: 1px solid #cccccc;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .contact textarea {
+        width: 500px;
+        border: 1px solid #cccccc;
+        margin-bottom: 7px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .contact input[type="submit"] {
+        padding: 9px 9px;
+        font-size: 13px;
+        display: block;
+        font-weight: bold;
+    }
+    
+    /* Portfolio Page */
+    .portfolio {
+        margin: 10px 10px 50px 10px;
+    }
+    
+    .portfolio-item {
+        width: 2px;
+        height: 2px;
+        display: inline;
+       
+    }
+    
+    .item-name {
+        top: 5px;
+        padding: 2px;
+    }
+    
+    footer {
+        padding: 5px;
+        font-size: 8px;
+        border-top: 4px solid #4aaaa5;
+    }
+    }
 
 /* ----------SMALL---------- */
 @media screen and (max-width: 640px) {
