@@ -222,9 +222,14 @@ footer {
 /* Header */
 
 .container {
-    width: 700px;
+    width: 640px;
 }
 
+.name {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
 .nav {
     text-align: left;
 }
@@ -252,6 +257,7 @@ footer {
     font-size: 25px;
     letter-spacing: 0.01em;
     padding: 23px;
+    margin-left: 80px;
 }
 
 h1 {
@@ -307,23 +313,24 @@ p {
 .contact input[type="submit"] {
     padding: 9px 9px;
     font-size: 12px;
-    display: inline;
+    display: block;
 }
 
 /* Portfolio Page */
 .portfolio {
-    margin: 50px 100px 50px 100px;
+    margin: 10px 10px 50px 10px;
 }
 
 .portfolio-item {
-    width: 5px;
-    height: 5px;
+    width: 2px;
+    height: 2px;
+    display: inline;
    
 }
 
 .item-name {
-    top: 10px;
-    padding: 5px;
+    top: 5px;
+    padding: 2px;
 }
 
 footer {
