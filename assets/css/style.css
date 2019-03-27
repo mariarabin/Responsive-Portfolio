@@ -251,6 +251,10 @@ footer {
 
 /* Main Content Area */
 
+html, body {
+    width: 980px;
+
+}
 .content {
     width: 980px;
     margin: 20px 50px;
